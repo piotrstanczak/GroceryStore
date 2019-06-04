@@ -8,10 +8,10 @@
 
 import UIKit
 
-struct BasketSummaryViewCellConfig: ProductListCellConfigurable {    
-    var fonts: [UIFont] = [UIFont.boldSystemFont(ofSize: 18.0), UIFont.systemFont(ofSize: 16), UIFont.italicSystemFont(ofSize: 14)]
+struct BasketSummaryViewCellConfig: ProductListCellConfigurable {
+    var fonts: [UIFont] = [UIFont.boldSystemFont(ofSize: 16.0), UIFont.systemFont(ofSize: 13), UIFont.italicSystemFont(ofSize: 14)]
     var colors: [UIColor] = [.black, .white, UIColor(rgb: 0x53caf8)]
     var backgroundColor = UIColor(rgb: 0x009933)
-    var stepperLabelFont = UIFont.systemFont(ofSize: 14)
+    var stepperLabelFont = UIFont.systemFont(ofSize: 12)
     var stepperLabelFontColor = UIColor.white
 }
